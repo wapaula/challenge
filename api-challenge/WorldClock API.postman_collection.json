@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "bd9830bd-3f14-4b54-bf7f-814704affff4",
+		"name": "WorldClock API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Current Eastern Standard Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://worldclockapi.com/api/json/est/now",
+					"protocol": "http",
+					"host": [
+						"worldclockapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"est",
+						"now"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "EST Time",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://worldclockapi.com/api/json/est/now",
+							"protocol": "http",
+							"host": [
+								"worldclockapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"json",
+								"est",
+								"now"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "Content-Length",
+							"value": "317"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Expires",
+							"value": "-1"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-AspNet-Version",
+							"value": "4.0.30319"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 29 Jun 2021 19:08:30 GMT"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"$id\": \"1\",\n    \"currentDateTime\": \"2021-06-29T15:08-04:00\",\n    \"utcOffset\": \"-04:00:00\",\n    \"isDayLightSavingsTime\": true,\n    \"dayOfTheWeek\": \"Tuesday\",\n    \"timeZoneName\": \"Eastern Standard Time\",\n    \"currentFileTime\": 132694529113674436,\n    \"ordinalDate\": \"2021-180\",\n    \"serviceResponse\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Current Coordinated Universal Time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://worldclockapi.com/api/json/utc/now",
+					"protocol": "http",
+					"host": [
+						"worldclockapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"json",
+						"utc",
+						"now"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get Current Coordinated Universal Time",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://worldclockapi.com/api/json/utc/now",
+							"protocol": "http",
+							"host": [
+								"worldclockapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"json",
+								"utc",
+								"now"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n    \"$id\": \"1\",\n    \"currentDateTime\": \"2021-06-29T19:12Z\",\n    \"utcOffset\": \"00:00:00\",\n    \"isDayLightSavingsTime\": false,\n    \"dayOfTheWeek\": \"Tuesday\",\n    \"timeZoneName\": \"UTC\",\n    \"currentFileTime\": 132694675295438989,\n    \"ordinalDate\": \"2021-180\",\n    \"serviceResponse\": null\n}"
+				}
+			]
+		}
+	]
+}
