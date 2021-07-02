@@ -1,4 +1,4 @@
-package com.wellington.challengejava.model;
+package com.wellington.javachallenge.model;
 
 public class Person {
 	
@@ -23,5 +23,5 @@ public class Person {
 	public String getBiggestDream() {
 	return biggestDream;
 	}
-
+	
 }

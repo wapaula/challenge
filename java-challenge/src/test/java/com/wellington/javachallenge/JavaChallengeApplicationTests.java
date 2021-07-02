@@ -1,10 +1,10 @@
-package com.wellington.challengejava;
+package com.wellington.javachallenge;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ChallengeJavaApplicationTests {
+class JavaChallengeApplicationTests {
 
 	@Test
 	void contextLoads() {
